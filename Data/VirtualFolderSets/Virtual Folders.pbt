@@ -8,5 +8,13 @@ Assets {
       VirtualFolderPath: "Player List"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Player List"
+      PlatformAssetType: 3
+    }
+    Folders {
+      VirtualFolderPath: "Player List"
+      PlatformAssetType: 29
+    }
   }
 }

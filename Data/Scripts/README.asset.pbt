@@ -1,6 +1,6 @@
 Assets {
-  Id: 11246747614252648306
-  Name: "Player_List_Client"
+  Id: 8500763859012671144
+  Name: "README"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {

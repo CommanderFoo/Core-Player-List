@@ -15,7 +15,7 @@ Objects {
     }
   }
   ChildIds: 5123016489002985023
-  ChildIds: 17333460536780124664
+  ChildIds: 10195762936033023073
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,7 +35,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17333460536780124664
+  Id: 10195762936033023073
   Name: "Player List"
   Transform {
     Scale {
@@ -45,18 +45,34 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 9766325474203842524
+      key: 8982107209517526120
       value {
         Overrides {
           Name: "Name"
           String: "Player List"
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
       }
     }
     TemplateAsset {
-      Id: 3333255661634834920
+      Id: 8011326546771538264
     }
   }
 }

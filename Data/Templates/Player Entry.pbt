@@ -19,7 +19,6 @@ Assets {
         ChildIds: 13807288398868047264
         ChildIds: 5702672560345533017
         ChildIds: 2175947621034077935
-        ChildIds: 146969224163637768
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -34,7 +33,7 @@ Assets {
         }
         Control {
           Width: 100
-          Height: 30
+          Height: 40
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -44,6 +43,8 @@ Assets {
           Panel {
             IsClipping: true
             Opacity: 1
+            OpacityMaskBrush {
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -274,84 +275,6 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-        IsReplicationEnabledByDefault: true
-      }
-      Objects {
-        Id: 146969224163637768
-        Name: "VIP"
-        Transform {
-          Location {
-          }
-          Rotation {
-            Yaw: 1.02452814e-05
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 9444877727143418134
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        EditorIndicatorVisibility {
-          Value: "mc:eindicatorvisibility:visiblewhenselected"
-        }
-        Control {
-          Width: 50
-          Height: 26
-          UIX: -10
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Text {
-            Label: "VIP"
-            Color {
-              R: 1
-              G: 1
-              A: 1
-            }
-            Size: 12
-            Justification {
-              Value: "mc:etextjustify:right"
-            }
-            Font {
-              Id: 14315634840637379538
-            }
-            VerticalJustification {
-              Value: "mc:everticaljustification:center"
-            }
-            ShadowColor {
-              A: 1
-            }
-            ShadowOffset {
-            }
-            OutlineColor {
-              A: 1
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleright"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleright"
               }
             }
           }
